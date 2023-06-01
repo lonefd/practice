@@ -1,0 +1,26 @@
+
+.quiz-box {
+  background-color: #222222;
+  color: white;
+}
+button{
+  background-color: #5ec6eb;
+  color: #000000;
+}
+button:hover{
+  background-color: #438faa;
+}
+button:focus{
+  outline: none;
+  background-color: #5ec6eb;
+}
+.theme {
+  background: #222222;
+  box-shadow: 0 0 10px rgba(255,255,255,0.4);
+}
+.changeTheme [data-theme="dark"]{
+  display: none;
+}
+.changeTheme [data-theme="light"]{
+  display: block;
+}
